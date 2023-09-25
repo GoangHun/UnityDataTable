@@ -7,15 +7,13 @@ public abstract class DataTable : MonoBehaviour
 	public enum  Ids
 	{
 		None = -1,
-		String,
-		Monster,
-		Tile,
-		Skill,
+		Cube,
 	};
 
 	public Ids tableId = Ids.None;
 
-	public abstract bool Load();
+    public abstract void Save();
+    public abstract bool Load();
 	public abstract bool Release();
 
 }
