@@ -37,6 +37,7 @@ public class Vector3Converter : JsonConverter<Vector3>
 	}
 }
 
+
 public class QuaternionConverter : JsonConverter<Quaternion>
 {
 	public override Quaternion ReadJson(JsonReader reader, Type objectType, Quaternion existingValue, bool hasExistingValue, JsonSerializer serializer)
